@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 
 const Footer = () => {
   return (
@@ -7,18 +7,18 @@ const Footer = () => {
       <div>
         GOODWOD
       </div>
-      
+
       <div>
-      Contactanos
-      +549 2215343580
-      disenogoodwood@gmail.com
-      Showroom
-      Calle 23 nro 1574 1/2 Taller Dinamita
-      La Plata, Bs.As. Arg.
+        Contactanos
+        +549 2215343580
+        disenogoodwood@gmail.com
+        Showroom
+        Calle 23 nro 1574 1/2 Taller Dinamita
+        La Plata, Bs.As. Arg.
       </div>
 
       <div>
-      Redes Sociales
+        Redes Sociales
       </div>
 
     </div>

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: $color-oscuro;
+  line-height: 1.5;
+  background-color: $color-claro;
+  position: relative;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+h1, h2, h3 {
+  line-height: 1.15;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none; 
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+a:hover{
+  color: $color-orange;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 69.375rem;
+  padding: 2.25rem 1.0625rem;
+
+  &--px {
+    padding: 0 1.0625rem;
+  }
+
+  &--py {
+    padding: 2.25rem 0;
+  }
+
+  &--pt {
+    padding-top: 2.25rem;
+  }
+
+  &--pr {
+    padding-right: 1.0625rem;
+  }
+
+  &--pb {
+    padding-bottom: 2.25rem;
+  }
+
+  &--pl {
+    padding-left: 1.0625rem;
+  }
+}
+
+// Visibility
+.hide-for-mobile {
+  @include breakpoint-down (medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up (large) {
+    display: none;
+  }
+}
+
+button, .button {
+  display: inline-block;
+  padding: 0.875rem 1.875rem;
+  border-radius: 3.125rem;
+  border: 0;
+  cursor: pointer;
+  background-color: $color-claro;
+  color: $color-orange;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
