@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
 
 html {
   font-size: 100%;
@@ -15,10 +15,10 @@ html {
 body {
   min-height: 100vh;
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
-  color: $color-oscuro;
+  font-family: 'Roboto', sans-serif;
+  color: $color-font;
   line-height: 1.5;
-  background-color: $color-claro;
+  background-color: $color-background;
   position: relative;
 
   &.no-scroll {
@@ -37,7 +37,7 @@ a, a:visited, a:hover {
 }
 
 a:hover{
-  color: $color-orange;
+  color: $color-hover;
 }
 
 ul {
@@ -93,8 +93,8 @@ button, .button {
   border-radius: 3.125rem;
   border: 0;
   cursor: pointer;
-  background-color: $color-claro;
-  color: $color-orange;
+  background-color: $color-button;
+  color: $color-font-button;
 
   &:hover {
     opacity: 0.75;
