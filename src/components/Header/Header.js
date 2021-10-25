@@ -1,11 +1,16 @@
 import React from "react";
 import "./Header.scss";
+import logo from './logo.png';
+import Nav from '../Nav/Nav.js';
 
 const Header = () => {
   return (
-    <div>
-      <h2>This is a header</h2>
-    </div>
+    <header className="header">
+      <div>
+          <img src={logo} alt="GoodWood logo"></img>
+      </div>
+      <Nav/>
+    </header>
   );
 };
 
