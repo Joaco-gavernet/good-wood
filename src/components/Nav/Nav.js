@@ -1,8 +1,15 @@
 import React from "react";
 import "./Nav.scss";
 
+const titles = [
+  'Inicio',
+  'Sobre Nosotros',
+  'Productos',
+  'Preguntas Frecuentes',
+  'Contacto'
+];
+
 const Nav = () => {
-  const titles = ['Inicio', 'Sobre Nosotros', 'Productos', 'Preguntas Frecuentes', 'Contacto'];
 
   return (
     <nav className="nav">
