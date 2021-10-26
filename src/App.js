@@ -3,6 +3,7 @@ import Header from './components/Header/Header.js';
 import Banner from './components/Banner/Banner.js';
 import About from './components/About/About.js';
 import Hero from './components/Hero/Hero.js';
+import Information from './components/Information/Information.js';
 import Whatsapp from './components/Whatsapp/Whatsapp.js';
 import Questions from './components/Questions/Questions.js';
 import Products from './components/Products/Products.js';
@@ -16,8 +17,10 @@ const App = () => {
     <div className="App">
       <Header />
       <Banner />
-{/*   <About />
       <Hero />
+      <Information />
+{/*   <About />
+ 
       <Whatsapp />
       <Questions />
       <Products />
