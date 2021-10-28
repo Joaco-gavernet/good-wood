@@ -1,49 +1,29 @@
 // Font Sizes
-$font-s: 0.75rem; // 12px
-$font-m: 1.125rem; // 18px
-$font-xm: 1.5rem; // 24px
-$font-l: 2rem; // 32px
-
-$font-h2: 4rem; // 64px
-$font-h3: 2.625rem; // 42px
-$font-h4: 3rem; // 48px
-
+$font-xs: 0.667rem;
+$font-s: 1rem;
+$font-m: 1.5rem;
+$font-l: 2.25rem;
+$font-xl: 3.375rem;
+$font-xxl: 5.063rem;
 
 // Reset Colors
-$color-oscuro: #1a1a1a;
+$color-oscuro: #1C313A;
 $color-claro: #fffdf8;
 $color-gris-oscuro: #272623ec;
 $color-gris-claro: #F4F4F4;
 $color-gris: #838383;
 
 // Primary Colors
-$color-verde: #2CC997;
-$color-celeste: #0574C1;
+$color-verde: #80CBC4;
+$color-militar: #4F9A94;
+$color-celeste: #B2FEF7;
+$color-azul: #0026CA;
+$color-azul-oscuro: #000098;
+$color-violeta: #6151FE;
 
 // Secondary Colors
-$color-turquesa-light: #8ab0bcbb;
-$color-salmon-light: #dfcdcdbb;
 $color-alerta: #AE0F09;
 $color-positivo: #438A2E;
 
-
-$color-background: #E5E5E5;
-$color-font: #1C313A;
-$color-font-light: #FFFFFF;
-$color-pressed: #B2FEF7;
-$color-primary-medium: #80CBC4;
-$color-button: #4F9A94;
-$color-hover: #B2FEF7;
-
-// Tertiary colors
-$color-orange: #ff8000;
-$color-ddl: #ffffcc;
-$color-turquesa: #8ab0bc;
-$color-salmon: #dfcdcd;
-
-$color-secondary-medium: #000098;
-$color-secondary-buttons: #6151FE;
-$color-secondary-pressed: #0026CA;
-
 // Other Elements
-$box-shadow: -5px 5px 20px rgba(0, 0, 0, .8);
+$box-shadow: -5px 5px 20px rgba(0, 0, 0, .5);

@@ -15,17 +15,16 @@
 }
 
 .nav__item{
-  color: $color-font-light;
   list-style-type: none;
   margin-right: 1.2rem;
 }
 
 .nav__link {
-  color: $color-font-light;
+  color: $color-claro;
   text-decoration: none;
   transition: all 200ms ease-in;
 }
 
 .nav__link:hover {
-  color: $color-hover;
+  color: $color-celeste;
 }

@@ -16,9 +16,9 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
-  color: $color-font;
+  color: $color-oscuro;
   line-height: 1.5;
-  background-color: $color-background;
+  background-color: $color-claro;
   position: relative;
 
   &.no-scroll {
@@ -37,7 +37,7 @@ a, a:visited, a:hover {
 }
 
 a:hover{
-  color: $color-hover;
+  color: $color-celeste;
 }
 
 ul {
@@ -93,8 +93,8 @@ button, .button {
   border-radius: 3.125rem;
   border: 0;
   cursor: pointer;
-  background-color: $color-button;
-  color: $color-font-light;
+  background-color: $color-claro;
+  color: $color-oscuro;
 
   &:hover {
     opacity: 0.75;
