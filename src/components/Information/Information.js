@@ -1,8 +1,11 @@
 import React from "react";
-import "./Information.scss";
 import ruler from './ruler.png';
 import truck from './truck.png';
 import whatsapp from './whatsapp.png';
+
+// Styles
+import "./Information.scss";
+
 
 const informationItems = {
   ruler: {
@@ -26,15 +29,15 @@ const Information = () => {
 
   return (
     <div className="information">
-      { Object.entries(informationItems).map(([itemName, itemData]) => (
+      {Object.entries(informationItems).map(([itemName, itemData]) => (
         <div className="information-item">
-          <div>
-            <img src={itemData.image} alt={itemName}></img>
+          <img src={itemData.image} alt={itemName} className="information__img"></img>
+          <div className="information__text">
+            <p>{itemData.title}</p>
+            <p className="information__subtitle">{itemData.subtitle}</p>
           </div>
-          <p>{itemData.title}</p>
-          <p>{itemData.subtitle}</p>
         </div>
-        )
+      )
       )}
     </div>
   );

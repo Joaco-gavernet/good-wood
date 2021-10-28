@@ -1,11 +1,11 @@
 import React from "react";
 import "./Nav.scss";
+import logo from './logo.png'
 
 const titles = [
   'Inicio',
-  'Sobre Nosotros',
+  'Sobre nosotros',
   'Productos',
-  'Preguntas Frecuentes',
   'Contacto'
 ];
 
@@ -13,15 +13,16 @@ const Nav = () => {
 
   return (
     <nav className="nav">
-    <ul className="nav__list">
-      {titles.map( title => 
-        <li key={title} className="nav__item">
+      <img src={logo} alt="GoodWood logo"></img>
+      <ul className="nav__list">
+        {titles.map(title =>
+          <li key={title} className="nav__item">
             <a className="nav__link" href="##">{title}</a>
-        </li>
+          </li>
         )
-      }
-    </ul>
-  </nav>
+        }
+      </ul>
+    </nav>
   );
 };
 

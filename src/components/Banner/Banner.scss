@@ -1,5 +1,7 @@
 @import '../../App.scss';
 
 .banner{
+  @include flex(normal, center, center);
   background-image: url('banner.png');
+  min-height: 160px;
 }

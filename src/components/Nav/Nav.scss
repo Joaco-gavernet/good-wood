@@ -1,15 +1,14 @@
 @import '../../App.scss';
 
 .nav{
-  display: flex;
-  margin-left: auto;
+  background-color: $color-verde;
+  padding: 17px 32px;
+  @include flex(row, space-between, center);
 }
 
 .nav__list{
-  display: flex;
+  @include flex(row, center, center);
   list-style-type: none;
-  align-items: center;
-  flex-wrap: wrap;
   padding: 0;
   margin: 0;
 }
