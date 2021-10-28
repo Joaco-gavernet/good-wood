@@ -1,0 +1,21 @@
+@import '../../scss/base.scss';
+
+.information {
+  width: 100%;
+  @include flex(row, space-between, center);
+  margin-top: 25px;
+
+  .information__img {
+    width: 60px;
+  }
+
+  .information__text {
+    margin-left: 20px;
+    display: inline-block;
+    @include font($font-m, bold, none);
+  }
+
+  .information__subtitle {
+    @include font($font-s, normal, none);
+  }
+}

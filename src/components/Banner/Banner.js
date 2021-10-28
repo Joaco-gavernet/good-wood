@@ -1,6 +1,10 @@
 import React from "react";
-import "./Banner.scss";
 import bannerLogo from './banner-logo.png';
+
+
+// Styles
+import "./Banner.scss";
+
 
 const Banner = () => {
   return (
