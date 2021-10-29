@@ -20,9 +20,9 @@ const App = () => {
       <Nav />
       <Banner />
       <Hero />
-      {/*   <About />
- 
-      <Whatsapp />
+      <About />
+
+      {/* <Whatsapp />
       <Questions />
       <Products />
       <Contact />
