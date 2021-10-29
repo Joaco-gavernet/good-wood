@@ -1,0 +1,19 @@
+@import '../../scss/base.scss';
+
+.about {
+  width: 100%;
+  background-color: $color-militar;
+  color: $color-claro;
+  padding: 60px 0px;
+  @include flex(row, space-evenly, center);
+
+  .about__title {
+    @include font($font-l, bold, none);
+  }
+  
+  .about__text {
+    @include font($font-s, normal, none);
+    max-width: 500px;
+    text-align: right;
+  }
+}
