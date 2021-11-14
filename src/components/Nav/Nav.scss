@@ -1,8 +1,8 @@
 @import '../../App.scss';
 
-.nav{
+.nav {
   background-color: $color-verde;
-  padding: 17px 32px;
+  padding: 17px 42px 17px 32px;
   @include flex(row, space-between, center);
 }
 
@@ -11,19 +11,20 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  gap: 2.25em;
 }
 
 .nav__item{
+  color: $color-claro;
   list-style-type: none;
-  margin-right: 1.2rem;
 }
 
 .nav__link {
+  @include font($font-m, 400, none);
   color: $color-claro;
-  text-decoration: none;
   transition: all 200ms ease-in;
-}
-
-.nav__link:hover {
-  color: $color-celeste;
+  
+  &:hover {
+    color: $color-celeste;
+  }
 }
