@@ -1,0 +1,27 @@
+@import '../../scss/base.scss';
+
+.contact {
+  width: 100%;
+  color: $color-oscuro;
+  padding: 149px 307px;
+  @include flex(row, center, center);
+  gap: 29px;
+
+  &__text {
+    @include font($font-m, 400, none);
+    max-width: 586px;
+    text-align: center;
+  }
+  
+  &__button {
+    @include font($font-m, 400, none);
+    background-color: $color-militar;
+    color: $color-claro;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+  &__button:hover {
+    color: $color-verde;
+    
+  }
+}
