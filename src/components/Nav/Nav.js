@@ -6,6 +6,7 @@ const titles = [
   'Inicio',
   'Sobre nosotros',
   'Productos',
+  'Preguntas Frecuentes',
   'Contacto'
 ];
 
