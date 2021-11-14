@@ -1,11 +1,8 @@
 import React from "react";
-import ruler from './ruler.png';
-import truck from './truck.png';
-import whatsapp from './whatsapp.png';
-
-// Styles
+import ruler from './ruler.svg';
+import truck from './truck.svg';
+import whatsapp from './whatsapp.svg';
 import "./Information.scss";
-
 
 const informationItems = {
   ruler: {
