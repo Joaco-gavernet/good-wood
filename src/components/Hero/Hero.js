@@ -1,8 +1,6 @@
 import React from "react";
 import Information from '../Information/Information';
-import heroimg from './heroimg.png';
-
-// Styles
+import video from './video.mp4';
 import "./Hero.scss";
 
 
@@ -10,7 +8,9 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero__container">
-        <img src={heroimg} alt="boy playing with wood toy on the floor" className="hero__img"></img>
+        <video className="hero__video" autoPlay muted loop>
+          <source src={video} type="video/mp4"></source>
+        </video>
         <h1 className="hero__text">Juguetes de madera <span>Hechos a mano 100%</span></h1>
       </div>
       <Information />

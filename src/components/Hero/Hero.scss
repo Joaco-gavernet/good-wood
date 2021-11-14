@@ -10,23 +10,21 @@
     width: 100%;
   }
 
-  .hero__img {
+  .hero__video {
     width: 100%;
   }
 
   .hero__text {
     position: absolute;
-    // Centro el titulo con position absolute y tranform
     top: 50%; 
     transform: translateY(-50%);
     left: 50px;
     z-index: 1;
-    @include font($font-l, bold, none);
+    @include font($font-xl, 700, none);
     color: $color-claro;
 
-    // selecciono el span anidado dentro de la clase
     > span {
-      font-weight: 500;
+      @include font($font-l, 500, none);
       display: block;
       line-height: 1.5;
     }
