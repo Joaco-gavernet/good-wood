@@ -1,0 +1,33 @@
+@import '../../scss/base.scss';
+
+.products__wrapper {
+  padding: 138px 148px;
+}
+
+.products__title {
+  @include font($font-l, 500, none);
+}
+
+.products {
+  color: $color-oscuro;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 20px;
+}
+
+.product {
+  color: $color-oscuro;
+  padding: 10px 0px;
+  @include flex(column, start, right);
+  gap: 10px;
+  
+  &__title{
+    @include font($font-m, 400, none);
+  }
+  
+  &__description{
+    @include font($font-s, 300, none);
+  }
+}
