@@ -1,0 +1,24 @@
+@import '../../scss/base.scss';
+
+.footer__list {
+  background-color: $color-verde;
+  color: $color-claro;
+  padding: 50px 0px;
+  @include flex(row, space-evenly, center);
+  
+  .footer__item {
+    @include flex(row, space-evenly, center);
+    @include font($font-m, 400, none);
+    gap: 40px;
+
+    &--list {
+      @include font($font-s, 400, none);
+      text-align: left;
+    }
+
+    &--social {
+      @include flex(row, center, center);
+      gap: 16px;
+    }
+  }
+}

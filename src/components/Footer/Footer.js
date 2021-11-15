@@ -1,26 +1,40 @@
 import React from "react";
 import "./Footer.scss";
+import logo from './logo.png'
+import fb from './fb.svg'
+import ig from './ig.svg'
 
 const Footer = () => {
   return (
-    <div>
-      <div>
-        GOODWOD
-      </div>
+    <div className="footer">
+      <ul className="footer__list">
+        <li className="footer__item">
+          <img src={logo} alt="GoodWood logo"></img>
+        </li>
 
-      <div>
-        Contactanos
-        +549 2215343580
-        disenogoodwood@gmail.com
-        Showroom
-        Calle 23 nro 1574 1/2 Taller Dinamita
-        La Plata, Bs.As. Arg.
-      </div>
+        <li className="footer__item">
+          <span className="footer__title">
+            Contactanos
+          </span>
+          <ul className="footer__item--list">
+            <li>+549 2215343580</li>
+            <li>disenogoodwood@gmail.com</li>
+            <li><strong>Showroom</strong></li>
+            <li>Calle 23 nro 1574 1/2 Taller Dinamita</li>
+            <li>La Plata, Bs.As. Arg.</li>
+          </ul>
+        </li>
 
-      <div>
-        Redes Sociales
-      </div>
-
+        <li className="footer__item">
+          <span className="footer__title">
+            Redes Sociales
+          </span>
+          <div className="footer__item--social">
+            <img src={fb} alt="Facebook Logo"></img>
+            <img src={ig} alt="Instagram Logo"></img>
+          </div>
+        </li>
+      </ul>
     </div>
   );
 };
