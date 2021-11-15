@@ -1,0 +1,31 @@
+@import '../../scss/base.scss';
+
+.question {
+  background-color: $color-militar;
+  color: $color-claro;
+  padding: 56px 0px 32px 0px;
+  @include flex(column, space-evenly, center);
+
+  .question__title {
+    @include font($font-xl, 700, none);
+    text-shadow: 0px 3px 6px rgb(73, 73, 73); 
+    padding-bottom: 50px;
+  }
+
+  .question__text {
+    @include flex(row, space-evenly, center);
+    @include font(1.25rem, 500, none);
+    gap: 30px;
+    padding: 0px 89px;
+  }
+
+  .question__paragraph {
+    padding-bottom: 1.2em;
+  }
+
+}
+
+.question__info {
+  max-width: 1440px;
+  padding: 23px 155px 0px 159px;
+}
