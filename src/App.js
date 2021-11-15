@@ -9,10 +9,7 @@ import Products from './components/Products/Products.js';
 import Contact from './components/Contact/Contact.js';
 import Footer from './components/Footer/Footer.js';
 
-
-// Styles
 import './App.scss';
-
 
 const App = () => {
   return (
@@ -21,12 +18,11 @@ const App = () => {
       <Banner />
       <Hero />
       <About />
-
-      {/* <Whatsapp />
-      <Questions />
       <Products />
+      <Questions />
       <Contact />
-      <Footer /> */}
+      <Footer /> 
+      {/* <Whatsapp /> */}
     </div>
   );
 }
