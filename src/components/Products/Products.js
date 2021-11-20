@@ -30,17 +30,17 @@ const products = {
 
 const Products = () => {
   return (
-    <div className="products__wrapper">
+    <div className="products__wrapper" id="products">
       <div className="products__title">Productos</div>
       <div className="products">
-        {Object.entries(products).map(([productName, productData]) => (
-          <div className="product">
+        {Object.entries(products).map(([productName, productData], key) => (
+          <div className="product" key={key}>
             <img src={productData.image} alt={productData.title} className="product__img"></img>
             <div className="product__text">
               <p className="product__title">{productData.title}</p>
-              <p className="product__description">
-                {productData.description.split('\n').map( paragraph => <p>{paragraph}</p> )}
-              </p>
+              <div className="product__description">
+                {productData.description.split('\n').map((paragraph, key) => <p key={key}>{paragraph}</p>)}
+              </div>
             </div>
           </div>
         )

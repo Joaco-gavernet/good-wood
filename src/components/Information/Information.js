@@ -26,8 +26,8 @@ const Information = () => {
 
   return (
     <div className="information">
-      {Object.entries(informationItems).map(([itemName, itemData]) => (
-        <div className="information-item">
+      {Object.entries(informationItems).map(([itemName, itemData], key) => (
+        <div key={key} className="information-item">
           <img src={itemData.image} alt={itemName} className="information__img"></img>
           <div className="information__text">
             <p>{itemData.title}</p>

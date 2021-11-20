@@ -4,7 +4,7 @@ import "./Banner.scss";
 
 const Banner = () => {
   return (
-    <div className="banner">
+    <div className="banner" id='banner'>
       <img src={bannerLogo} alt="GoodWood logo banner big"></img>
     </div>
   );
