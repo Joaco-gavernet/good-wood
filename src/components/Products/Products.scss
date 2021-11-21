@@ -20,7 +20,7 @@
 .product {
   color: $color-oscuro;
   padding: 10px 0px;
-  @include flex(column, start, right);
+  @include flex(column, flex-start, right);
   gap: 10px;
   
   &__title{

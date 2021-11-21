@@ -30,8 +30,8 @@ const Footer = () => {
             Redes Sociales
           </span>
           <div className="footer__item--social">
-            <a href="https://www.facebook.com/goodwood.di/" target="_blank"><img src={fb} alt="Facebook Logo"></img></a>
-            <a href="https://www.instagram.com/good_wood_di/" target="_blank"><img src={ig} alt="Instagram Logo"></img></a>
+            <a href="https://www.facebook.com/goodwood.di/" rel="noopener" target="_blank"><img src={fb} alt="Facebook Logo"></img></a>
+            <a href="https://www.instagram.com/good_wood_di/" rel="noopener" target="_blank"><img src={ig} alt="Instagram Logo"></img></a>
           </div>
         </li>
       </ul>
