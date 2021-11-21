@@ -1,0 +1,13 @@
+import React from "react";
+import "./Whatsapp.scss";
+import wapp from './wapp.svg';
+
+const Whatsapp = () => {
+  return (
+    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5492215343580&text=Hola" target="_blank">
+      <img className="my-float" src={wapp} alt="whatsapp icon"></img>
+    </a>
+  );
+};
+
+export default Whatsapp;

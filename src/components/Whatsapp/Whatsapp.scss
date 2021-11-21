@@ -1,0 +1,17 @@
+@import '../../App.scss';
+
+.whatsapp {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:480px;
+	right:48px;
+	color: white;
+	border-radius:50px;
+	box-shadow: 2px 2px 3px $color-gris;
+  
+  &:hover {
+    filter:   brightness(10%);
+    box-shadow: 1px 1px 1px $color-gris;
+  }
+}
