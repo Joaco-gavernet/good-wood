@@ -19,6 +19,10 @@
     &--social {
       @include flex(row, center, center);
       gap: 16px;
+
+      img {
+        display: block;
+      }
     }
   }
 }
