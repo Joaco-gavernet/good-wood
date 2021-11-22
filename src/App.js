@@ -10,8 +10,8 @@ import Footer from './components/Footer/Footer.js';
 import Whatsapp from './components/Whatsapp/Whatsapp.js';
 import './App.scss';
 
-const App = () => {
 
+const App = () => {
 
   return (
     <div className="App">
