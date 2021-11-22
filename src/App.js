@@ -8,13 +8,10 @@ import Products from './components/Products/Products.js';
 import Contact from './components/Contact/Contact.js';
 import Footer from './components/Footer/Footer.js';
 import Whatsapp from './components/Whatsapp/Whatsapp.js';
-
-
 import './App.scss';
 
 
 const App = () => {
-
 
   return (
     <div className="App">
@@ -26,7 +23,7 @@ const App = () => {
       <Questions />
       <Contact />
       <Footer />
-      {/* <Whatsapp /> */}
+      <Whatsapp />
     </div>
   );
 }
