@@ -5,13 +5,13 @@
   color: $color-oscuro;
   padding: 149px 307px;
   @include flex(row, center, center);
-  gap: 29px;
   position: relative;
 
   &__text {
     @include font($font-m, 400, none);
     max-width: 586px;
     text-align: center;
+    margin-right: 29px;
   }
   
   &__button {
