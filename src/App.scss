@@ -1,5 +1,9 @@
 @import './scss/base.scss';
 
+:root {
+  --swiper-theme-color: #fff;
+}
+
 .App {
   padding-bottom: 0px;
   scroll-behavior: smooth;
